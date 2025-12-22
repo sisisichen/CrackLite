@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+conda/
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & outputs
+*.log
+runs/
+outputs/
+results/
+vis_attention/
+
+# Checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Data (IMPORTANT)
+data/
+dataset/
+datasets/
