@@ -1,0 +1,4 @@
+dataset,f1,miou,precision,recall,notes
+Bridge Crack,0.8655,0.7862,,,Self-collected field bridge crack dataset
+Crack500,0.8824,0.8037,,,Public benchmark
+Concrete-Crack-Segmentation,0.9247,0.8684,,,Public benchmark
