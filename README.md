@@ -69,11 +69,6 @@ The model is positioned as an accuracy-efficiency trade-off for practical crack
 inspection rather than as a heavyweight accuracy-only model.
 <div align="center"><img src="assets/figures/fig8_efficiency_tradeoff.png" alt="Throughput and complexity trade-off" width="100%"></div>
 
-| Model | FPS | GFLOPs | Params (M) |
-| --- | ---: | ---: | ---: |
-| CrackLite | 95.21 | 54.859 | 3.264 |
-| U-Net | 14.18 | 1790.976 | 31.036 |
-
 ## Ablation
 
 The ablation study separates the effects of topology aggregation and local
