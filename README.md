@@ -9,32 +9,132 @@ Official PyTorch implementation for **CrackLite: Lightweight Concrete Crack
 Segmentation with Direction-Guided Topology Aggregation and Local Geometry
 Refinement**.
 
-CrackLite is a lightweight binary segmentation network for concrete crack
-inspection images. It decouples crack morphology modeling into two parts:
+CrackLite is designed for field concrete crack inspection, where cracks are
+thin, elongated, low-contrast, and easily confused with stains, joints, pores,
+shadows, and heterogeneous concrete texture. Instead of treating crack
+segmentation as generic foreground extraction, CrackLite explicitly separates
+two morphology-sensitive objectives:
 
-- **Direction-Guided Topology Aggregation (DGTA)** propagates features along
-  four candidate crack directions: `0`, `pi/4`, `pi/2`, and `3pi/4`.
-- **Normal-Calibrated Local Geometry Refinement (NLGR)** uses normal-direction
-  cues to sharpen weak crack boundaries and suppress crack-like texture noise.
-- A **training-only structure-aware auxiliary branch** predicts centerline and
-  boundary maps during optimization. The auxiliary heads are not used during
-  inference, so deployment uses only the main segmentation branch.
+- **Topology continuity:** keep long and weak crack paths connected.
+- **Local geometry fidelity:** keep crack boundaries slender and suppress
+  crack-like background texture.
+
+<p align="center">
+  <img src="assets/figures/module_overview_clean.png" alt="CrackLite module overview" width="100%">
+</p>
 
 ## Highlights
 
-- Topology-geometry decoupled CrackLite blocks with DGTA and NLGR.
-- Hybrid training objective: BCE, Dice, soft-clDice, centerline supervision, and
-  boundary supervision.
-- Validation mIoU based checkpoint selection.
-- Fixed-threshold F1 and class-averaged mIoU evaluation protocol.
-- Release metadata: configs, model card, citation file, checkpoint manifest,
-  dataset protocol, demo data, and command wrappers.
+- **Direction-Guided Topology Aggregation (DGTA):** propagates features along
+  candidate crack directions `0`, `pi/4`, `pi/2`, and `3pi/4`.
+- **Normal-Calibrated Local Geometry Refinement (NLGR):** uses normal-direction
+  cues to refine weak boundaries and suppress texture-induced false responses.
+- **Training-only auxiliary supervision:** centerline and boundary heads
+  regularize structure during training without increasing inference cost.
+- **Compact deployment profile:** 3.264M parameters, 54.859 GFLOPs, and 95.21
+  FPS under the reported GPU-side setting.
+- **Reproducible release package:** configs, model card, citation metadata,
+  checkpoint manifest, dataset protocol, demo data, and command wrappers.
+
+## Visual Overview
+
+The full CrackLite network follows a lightweight encoder-decoder design. The
+decoder fuses multi-scale features and the auxiliary centerline/boundary branch
+is removed during inference.
+
+<p align="center">
+  <img src="assets/figures/fig2_architecture.png" alt="Overall CrackLite architecture" width="100%">
+</p>
+
+The core block contains DGTA and NLGR. DGTA estimates a local orientation prior
+and performs tangent/normal directional strip aggregation. NLGR then uses the
+normal cue as a geometry gate for local 3x3/5x5 refinement.
+
+<p align="center">
+  <img src="assets/figures/fig3_cracklite_block.png" alt="CrackLite block with DGTA and NLGR" width="100%">
+</p>
+
+## Results
+
+CrackLite is evaluated on one self-collected field bridge dataset and two public
+benchmarks. The main reporting metrics are F1 and class-averaged mIoU with a
+fixed threshold of `0.5`.
+
+<p align="center">
+  <img src="assets/figures/result_summary_clean.png" alt="CrackLite F1 and mIoU summary" width="82%">
+</p>
+
+| Dataset | F1 | mIoU |
+| --- | ---: | ---: |
+| Bridge Crack | 0.8655 | 0.7862 |
+| Crack500 | 0.8824 | 0.8037 |
+| Concrete-Crack-Segmentation | 0.9247 | 0.8684 |
+
+The qualitative examples show the intended behavior: CrackLite aims to recover
+continuous crack trajectories while keeping masks thin and restrained around
+texture clutter.
+
+<p align="center">
+  <img src="assets/figures/fig5_qualitative_comparison.png" alt="Qualitative crack segmentation comparison" width="100%">
+</p>
+
+## Internal Response Interpretation
+
+The manuscript visualizes intermediate DGTA/NLGR responses to explain how the
+network evolves from diffuse crack-like activation toward concentrated crack
+paths, sharper local boundaries, and reduced false responses.
+
+<p align="center">
+  <img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="72%">
+</p>
+
+CrackLite outputs are also compatible with downstream morphology descriptors
+such as centerline length, approximate width profile, crack area ratio, and
+fragmentation indicators.
+
+<p align="center">
+  <img src="assets/figures/fig7_morphology_pipeline.png" alt="Downstream morphology analysis pipeline" width="68%">
+</p>
+
+## Efficiency
+
+The model is positioned as an accuracy-efficiency trade-off for practical crack
+inspection rather than as a heavyweight accuracy-only model.
+
+<p align="center">
+  <img src="assets/figures/efficiency_profile_clean.png" alt="CrackLite efficiency profile" width="100%">
+</p>
+
+| Model | FPS | GFLOPs | Params (M) |
+| --- | ---: | ---: | ---: |
+| CrackLite | 95.21 | 54.859 | 3.264 |
+| U-Net | 14.18 | 1790.976 | 31.036 |
+
+## Ablation
+
+The ablation study separates the effects of topology aggregation and local
+geometry refinement.
+
+<p align="center">
+  <img src="assets/figures/ablation_miou_clean.png" alt="DGTA and NLGR ablation mIoU" width="78%">
+</p>
+
+| Variant | DGTA | NLGR | mIoU |
+| --- | --- | --- | ---: |
+| Backbone | No | No | 0.7229 |
+| DGTA only | Yes | No | 0.7302 |
+| NLGR only | No | Yes | 0.7752 |
+| CrackLite | Yes | Yes | 0.7862 |
+
+<p align="center">
+  <img src="assets/figures/fig10_ablation_qualitative.png" alt="Qualitative ablation comparison" width="100%">
+</p>
 
 ## Release Contents
 
 ```text
 CrackLite/
-  assets/                         # place selected manuscript figures here
+  assets/                         # manuscript and generated release figures
   checkpoints/
     README.md
     manifest.json                 # expected checkpoint metadata
@@ -167,7 +267,7 @@ python tools/train.py
 
 Important manuscript settings are recorded in
 [configs/paper_cracklite.json](configs/paper_cracklite.json) and mirrored in
-`config.py`:
+`config.py`.
 
 | Setting | Value |
 | --- | --- |
@@ -226,34 +326,6 @@ metadata.
 
 When publishing a checkpoint, provide the SHA256 checksum, dataset split,
 training command, and Git commit hash.
-
-## Manuscript Results
-
-The manuscript reports the following CrackLite results:
-
-| Dataset | F1 | mIoU |
-| --- | ---: | ---: |
-| Bridge Crack | 0.8655 | 0.7862 |
-| Crack500 | 0.8824 | 0.8037 |
-| Concrete-Crack-Segmentation | 0.9247 | 0.8684 |
-
-The reported deployment profile is **3.264M parameters**, **54.859 GFLOPs**,
-**95.21 FPS**, and **0.78G inference memory** under the tested GPU setting.
-
-Summary CSV files are provided under [docs/results](docs/results).
-
-## Ablation Variants
-
-`CrackLite` can instantiate the four manuscript variants:
-
-```python
-from model import CrackLite
-
-backbone = CrackLite(use_dgta=False, use_nlgr=False)
-dgta_only = CrackLite(use_dgta=True, use_nlgr=False)
-nlgr_only = CrackLite(use_dgta=False, use_nlgr=True)
-full = CrackLite(use_dgta=True, use_nlgr=True)
-```
 
 ## Reproducibility
 
