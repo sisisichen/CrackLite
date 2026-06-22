@@ -69,20 +69,6 @@ The model is positioned as an accuracy-efficiency trade-off for practical crack
 inspection rather than as a heavyweight accuracy-only model.
 <div align="center"><img src="assets/figures/fig8_efficiency_tradeoff.png" alt="Throughput and complexity trade-off" width="100%"></div>
 
-## Ablation
-
-The ablation study separates the effects of topology aggregation and local
-geometry refinement.
-<div align="center"><img src="assets/figures/fig9_ablation_miou.png" alt="DGTA and NLGR ablation mIoU" width="76%"></div>
-
-| Variant | DGTA | NLGR | mIoU |
-| --- | --- | --- | ---: |
-| Backbone | No | No | 0.7229 |
-| DGTA only | Yes | No | 0.7302 |
-| NLGR only | No | Yes | 0.7752 |
-| CrackLite | Yes | Yes | 0.7862 |
-<div align="center"><img src="assets/figures/fig10_ablation_qualitative.png" alt="Qualitative ablation comparison" width="100%"></div>
-
 ## Release Contents
 
 ```text

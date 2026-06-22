@@ -1,5 +1,0 @@
-variant,uses_dgta,uses_nlgr,miou,notes
-Backbone,false,false,0.7229,Compact encoder-decoder without proposed modules
-DGTA only,true,false,0.7302,Direction-guided topology aggregation only
-NLGR only,false,true,0.7752,Normal-calibrated local geometry refinement only
-CrackLite,true,true,0.7862,Full topology-geometry decoupled model

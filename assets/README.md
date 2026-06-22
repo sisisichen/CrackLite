@@ -10,8 +10,6 @@ figures/
   fig5_qualitative_comparison.png
   fig6_internal_response.png
   fig8_efficiency_tradeoff.png
-  fig9_ablation_miou.png
-  fig10_ablation_qualitative.png
 ```
 
 These PNG files were exported from the manuscript figure source files so they
