@@ -19,10 +19,6 @@ two morphology-sensitive objectives:
 - **Local geometry fidelity:** keep crack boundaries slender and suppress
   crack-like background texture.
 
-<p align="center">
-  <img src="assets/figures/module_overview_clean.png" alt="CrackLite module overview" width="100%">
-</p>
-
 ## Highlights
 
 - **Direction-Guided Topology Aggregation (DGTA):** propagates features along
@@ -43,7 +39,7 @@ decoder fuses multi-scale features and the auxiliary centerline/boundary branch
 is removed during inference.
 
 <p align="center">
-  <img src="assets/figures/fig2_architecture.png" alt="Overall CrackLite architecture" width="100%">
+  <img src="assets/figures/fig2_architecture.svg" alt="Overall CrackLite architecture" width="100%">
 </p>
 
 The core block contains DGTA and NLGR. DGTA estimates a local orientation prior
@@ -51,7 +47,7 @@ and performs tangent/normal directional strip aggregation. NLGR then uses the
 normal cue as a geometry gate for local 3x3/5x5 refinement.
 
 <p align="center">
-  <img src="assets/figures/fig3_cracklite_block.png" alt="CrackLite block with DGTA and NLGR" width="100%">
+  <img src="assets/figures/fig3_cracklite_block.svg" alt="CrackLite block with DGTA and NLGR" width="100%">
 </p>
 
 ## Results
@@ -61,7 +57,7 @@ benchmarks. The main reporting metrics are F1 and class-averaged mIoU with a
 fixed threshold of `0.5`.
 
 <p align="center">
-  <img src="assets/figures/result_summary_clean.png" alt="CrackLite F1 and mIoU summary" width="82%">
+  <img src="assets/figures/fig4_dataset_miou.svg" alt="mIoU comparison across the three crack datasets" width="100%">
 </p>
 
 | Dataset | F1 | mIoU |
@@ -85,7 +81,7 @@ network evolves from diffuse crack-like activation toward concentrated crack
 paths, sharper local boundaries, and reduced false responses.
 
 <p align="center">
-  <img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="72%">
+  <img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="88%">
 </p>
 
 CrackLite outputs are also compatible with downstream morphology descriptors
@@ -93,7 +89,7 @@ such as centerline length, approximate width profile, crack area ratio, and
 fragmentation indicators.
 
 <p align="center">
-  <img src="assets/figures/fig7_morphology_pipeline.png" alt="Downstream morphology analysis pipeline" width="68%">
+  <img src="assets/figures/fig7_morphology_pipeline.svg" alt="Downstream morphology analysis pipeline" width="82%">
 </p>
 
 ## Efficiency
@@ -102,7 +98,7 @@ The model is positioned as an accuracy-efficiency trade-off for practical crack
 inspection rather than as a heavyweight accuracy-only model.
 
 <p align="center">
-  <img src="assets/figures/efficiency_profile_clean.png" alt="CrackLite efficiency profile" width="100%">
+  <img src="assets/figures/fig8_efficiency_tradeoff.svg" alt="Throughput and complexity trade-off" width="100%">
 </p>
 
 | Model | FPS | GFLOPs | Params (M) |
@@ -116,7 +112,7 @@ The ablation study separates the effects of topology aggregation and local
 geometry refinement.
 
 <p align="center">
-  <img src="assets/figures/ablation_miou_clean.png" alt="DGTA and NLGR ablation mIoU" width="78%">
+  <img src="assets/figures/fig9_ablation_miou.svg" alt="DGTA and NLGR ablation mIoU" width="76%">
 </p>
 
 | Variant | DGTA | NLGR | mIoU |

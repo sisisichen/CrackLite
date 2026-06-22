@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 fig7_morphology_pipeline.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16.0354in" height="22.8858in"
+		viewBox="0 0 1154.55 1647.78" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-width:3}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:1.99999em}
+		.st3 {font-size:1em}
+		.st4 {font-size:0.750003em}
+		.st5 {marker-end:url(#mrkr4-23);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st6 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.54347826086957}
+		.st7 {fill:none;stroke:none;stroke-width:0.25}
+		.st8 {fill:none;stroke:#000000;stroke-dasharray:21,15;stroke-width:3}
+		.st9 {marker-end:url(#mrkr4-23);stroke:#000000;stroke-dasharray:3,6;stroke-linecap:round;stroke-linejoin:round;stroke-width:3}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-23" class="st6" v:arrowType="4" v:arrowSize="2" v:setback="3.68" refX="-3.68" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-1.84,-1.84) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(398.179,-1272.88)">
+			<title>圆角矩形</title>
+			<desc>Structural Surface Image (Bridge/Deck/Concrete Member)</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.535" cy="1603.91" width="333.08" height="87.7462"/>
+			<path d="M14.01 1647.78 L319.06 1647.78 A14.0135 14.0135 -180 0 0 333.07 1633.77 L333.07 1574.05 A14.0135 14.0135 -180
+						 0 0 319.06 1560.03 L14.01 1560.03 A14.0135 14.0135 -180 0 0 -0 1574.05 L0 1633.77 A14.0135 14.0135 -180
+						 0 0 14.01 1647.78 Z" class="st1"/>
+			<text x="46.59" y="1596.71" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Structural Surface Image<v:newlineChar/><tspan
+						x="6.93" dy="1.2em" class="st3">(Bridge/Deck/Concrete Member)</tspan></text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(398.179,-1150.05)">
+			<title>圆角矩形.16061</title>
+			<desc>CrackLite Segmentation Inference Probability Map</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.535" cy="1607.62" width="333.08" height="80.3154"/>
+			<path d="M14.01 1647.78 L319.06 1647.78 A14.0135 14.0135 -180 0 0 333.07 1633.77 L333.07 1581.48 A14.0135 14.0135 -180
+						 0 0 319.06 1567.46 L14.01 1567.46 A14.0135 14.0135 -180 0 0 -0 1581.48 L0 1633.77 A14.0135 14.0135 -180
+						 0 0 14.01 1647.78 Z" class="st1"/>
+			<text x="49.57" y="1600.42" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>CrackLite Segmentation <tspan
+						x="39.91" dy="1.2em" class="st3">Inference</tspan><tspan class="st3" v:langID="2052"> </tspan>Probability Map  </text>		</g>
+		<g id="shape3-10" v:mID="3" v:groupContext="shape" transform="translate(398.179,-1022.67)">
+			<title>圆角矩形.16063</title>
+			<desc>Binary Mask Thresholding + (Optional) Morphological Cleanup</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.19463551266949):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="166.535" cy="1603.91" width="333.08" height="87.7462"/>
+			<path d="M14.01 1647.78 L319.06 1647.78 A14.0135 14.0135 -180 0 0 333.07 1633.77 L333.07 1574.05 A14.0135 14.0135 -180
+						 0 0 319.06 1560.03 L14.01 1560.03 A14.0135 14.0135 -180 0 0 -0 1574.05 L0 1633.77 A14.0135 14.0135 -180
+						 0 0 14.01 1647.78 Z" class="st1"/>
+			<text x="104.21" y="1589.51" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Binary Mask<v:newlineChar/><tspan
+						x="111.22" dy="1.3em" class="st4">Thresholding + <v:newlineChar/></tspan><tspan x="41.06" dy="1.2em"
+						class="st4">(Optional) Morphological Cleanup</tspan></text>		</g>
+		<g id="shape4-15" v:mID="4" v:groupContext="shape" transform="translate(373.375,-890.207)">
+			<title>圆角矩形.17721</title>
+			<desc>Morphology Descriptor Extraction</desc>
+			<v:userDefs>
+				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+				<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.22362378051389):1"/>
+				<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.22362378051389):1"/>
+				<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.22362378051389):1"/>
+				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.22362378051389):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="191.339" cy="1603.91" width="382.68" height="87.7462"/>
+			<path d="M16.1 1647.78 L366.58 1647.78 A16.1006 16.1006 -180 0 0 382.68 1631.68 L382.68 1576.13 A16.1006 16.1006 -180
+						 0 0 366.58 1560.03 L16.1 1560.03 A16.1006 16.1006 -180 0 0 0 1576.13 L0 1631.68 A16.1006 16.1006 -180 0
+						 0 16.1 1647.78 Z" class="st1"/>
+			<text x="28" y="1596.71" class="st2" v:langID="1033"><v:paragraph/><v:tabList/>Morphology Descriptor Extraction<v:newlineChar/>                       </text>		</g>
+		<g id="shape5-18" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(557.627,-1272.88)">
+			<title>动态连接线.17723</title>
+			<path d="M7.09 1647.78 L7.09 1679.26" class="st5"/>
+		</g>
+		<g id="shape6-24" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(557.627,-1150.05)">
+			<title>动态连接线.17724</title>
+			<path d="M7.09 1647.78 L7.09 1676.38" class="st5"/>
+		</g>
+		<g id="shape7-29" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(557.627,-1022.67)">
+			<title>动态连接线.17725</title>
+			<path d="M7.09 1647.78 L7.09 1681.45" class="st5"/>
+		</g>
+		<g id="shape8-34" v:mID="8" v:groupContext="shape" transform="translate(692.91,-1158.48)">
+			<title>工作表.8</title>
+			<rect v:rectContext="foreign" x="0" y="1616.55" width="22.271" height="31.2286" class="st7"/>
+			<switch>
+				<foreignObject x="0" y="1616.55" width="22.271" height="31.2286"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="5632" v:data="data:metafile;base64,eNrtGE1slFVw3vf
+								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"/>
+				</foreignObject>
+				<svg viewBox="0 0 652.13 912.1" enable-background="new" color-interpolation-filters="sRGB" height="31.2286"
+						preserveAspectRatio="none" width="22.271" x="0" y="1616.55">
+					<defs>
+						<clipPath id="mfid2">
+							<rect id="mfid3" x="0" y="0" width="652.13" height="912.1"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid2)">
+						<mask id="mfid1" fill-rule="evenodd">
+							<g>
+								<rect width="652" height="912" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid1)">
+							<g transform="matrix(1.6979, 0, 0, 2.1923, 0, 0)">
+								<g stroke="#000000" stroke-miterlimit="10" fill="none">
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic" font-weight="400"
+											font-size="384">
+										<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(70,352)"
+												xml:space="preserve">P</text>
+									</g>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid4" fill-rule="evenodd" fill="white" stroke="none">
+							<rect x="0" y="0" width="652" height="912"/>
+						</mask>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="1616.55" width="22.271" height="31.2286" class="st7"/>
+		</g>
+		<g id="shape9-37" v:mID="9" v:groupContext="shape" transform="translate(626.368,-1077.29)">
+			<title>工作表.9</title>
+			<rect v:rectContext="foreign" x="0" y="1617.42" width="31.1811" height="30.3593" class="st7"/>
+			<switch>
+				<foreignObject x="0" y="1617.42" width="31.1811" height="30.3593"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="6656" v:data="data:metafile;base64,eNrtWE1sVFUUPve
+								+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"/>
+				</foreignObject>
+				<svg viewBox="0 0 914.46 888.05" enable-background="new" color-interpolation-filters="sRGB" height="30.3593"
+						preserveAspectRatio="none" width="31.1811" x="0" y="1617.42">
+					<defs>
+						<clipPath id="mfid6">
+							<rect id="mfid7" x="0" y="0" width="914.46" height="888.05"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid6)">
+						<mask id="mfid5" fill-rule="evenodd">
+							<g>
+								<rect width="914" height="888" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid5)">
+							<g transform="matrix(1.7852, 0, 0, 1.7344, 0, 0)">
+								<g stroke="#000000" stroke-miterlimit="10" fill="none">
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+											font-size="384">
+										<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(217,346)"
+												xml:space="preserve">ˆ</text>
+									</g>
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic" font-weight="400"
+											font-size="384">
+										<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(64,448)"
+												xml:space="preserve">M</text>
+									</g>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid8" fill-rule="evenodd" fill="white" stroke="none">
+							<rect x="0" y="0" width="914" height="888"/>
+						</mask>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="1617.42" width="31.1811" height="30.3593" class="st7"/>
+		</g>
+		<g id="shape10-40" v:mID="10" v:groupContext="shape" transform="translate(440.698,-896.359)">
+			<title>工作表.10</title>
+			<rect v:rectContext="foreign" x="0" y="1611.72" width="248.031" height="36.0559" class="st7"/>
+			<switch>
+				<foreignObject x="0" y="1611.72" width="248.031" height="36.0559"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="9728" v:data="data:metafile;base64,eNrtWm1ok1cUPve
+								+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
+								nxvQyGx7WIE/p9L8Oa+fpqdN/wA7qng=="/>
+				</foreignObject>
+				<svg viewBox="0 0 914.46 132.61" enable-background="new" color-interpolation-filters="sRGB" height="36.0559"
+						preserveAspectRatio="none" width="248.031" x="0" y="1611.72">
+					<defs>
+						<clipPath id="mfid10">
+							<rect id="mfid11" x="0" y="0" width="914.46" height="132.61"/>
+						</clipPath>
+					</defs>
+					<g clip-path="url(#mfid10)">
+						<mask id="mfid9" fill-rule="evenodd">
+							<g>
+								<rect width="914" height="133" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid9)">
+							<g transform="matrix(0.19299, 0, 0, 0.21875, 0, 0)">
+								<g stroke="#000000" stroke-miterlimit="10" fill="none">
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+											font-size="222">
+										<text stroke="none" fill="#000000" x="0,169,266,843,954,3044,3130,3227,3671" y="0"
+												transform="translate(711,483)" xml:space="preserve">max95seg</text>
+									</g>
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal" font-weight="400"
+											font-size="384">
+										<text stroke="none" fill="#000000" x="0,850,1524,2126,3002,3807,4575" y="0"
+												transform="translate(286,384)" xml:space="preserve">,,,,,,</text>
+									</g>
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic" font-weight="400"
+											font-size="222">
+										<text stroke="none" fill="#000000" x="0,2276,2720" y="0" transform="translate(2243,483)"
+												xml:space="preserve">Ad</text>
+									</g>
+									<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic" font-weight="400"
+											font-size="384">
+										<text stroke="none" fill="#000000" x="0,402,1252,2528,2720,2978,3416,4215,4983" y="0"
+												transform="translate(70,384)" xml:space="preserve">LwwSCRNE</text>
+									</g>
+									<g font-family="&#39;S&#39;" font-style="italic" font-weight="400" font-size="384">
+										<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(2002,384)"
+												xml:space="preserve"></text>
+									</g>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid12" fill-rule="evenodd" fill="white" stroke="none">
+							<rect x="0" y="0" width="914" height="133"/>
+						</mask>
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="1611.72" width="248.031" height="36.0559" class="st7"/>
+		</g>
+		<g id="group11-43" transform="translate(275.811,-697.411)" v:mID="11" v:groupContext="group">
+			<title>工作表.11</title>
+			<g id="shape12-44" v:mID="12" v:groupContext="shape">
+				<title>圆角矩形.16050</title>
+				<desc>Downstream Morphology Analysis Screening and Prioritization</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.32448327172669):1"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.32448327172669):1"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.32448327172669):1"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.32448327172669):1"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="116.814" cy="1592.18" width="233.63" height="111.202"/>
+				<path d="M23.36 1647.78 L210.27 1647.78 A23.3624 23.3624 -180 0 0 233.63 1624.42 L233.63 1559.94 A23.3624 23.3624
+							 -180 0 0 210.27 1536.58 L23.36 1536.58 A23.3624 23.3624 -180 0 0 0 1559.94 L0 1624.42 A23.3624 23.3624
+							 -180 0 0 23.36 1647.78 Z" class="st1"/>
+				<text x="55.5" y="1570.58" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Downstream <tspan
+							x="11.81" dy="1.2em" class="st3">Morphology Analysis<v:newlineChar/></tspan><tspan x="12.84" dy="1.2em"
+							class="st3" v:langID="2052"> </tspan><tspan class="st4">Screening and Prioritization</tspan></text>			</g>
+			<g id="shape13-50" v:mID="13" v:groupContext="shape" transform="translate(280.829,-0.606835)">
+				<title>圆角矩形.16060</title>
+				<desc>Optional Review of Uncertain Cases Low Confidence/High Fragme...</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeTopRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotLeftSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CTypeBotRightSnip" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="CornerLockHoriz" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockVert" v:prompt="" v:val="VT0(1):5"/>
+					<v:ud v:nameU="CornerLockDiag" v:prompt="" v:val="VT0(0):5"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.15748031496063):24"/>
+					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+					<v:ud v:nameU="TopLeftOffset" v:prompt="" v:val="VT0(0.43673098533986):1"/>
+					<v:ud v:nameU="TopRightOffset" v:prompt="" v:val="VT0(0.43673098533986):1"/>
+					<v:ud v:nameU="BotLeftOffset" v:prompt="" v:val="VT0(0.43673098533986):1"/>
+					<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0.43673098533986):1"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="157.223" cy="1572.94" width="314.45" height="149.669"/>
+				<path d="M31.44 1647.78 L283 1647.78 A31.4441 31.4441 -180 0 0 314.45 1616.33 L314.45 1529.55 A31.4441 31.4441 -180
+							 0 0 283 1498.11 L31.44 1498.11 A31.4441 31.4441 -180 0 0 -0 1529.55 L0 1616.33 A31.4441 31.4441 -180
+							 0 0 31.44 1647.78 Z" class="st8"/>
+				<text x="12.27" y="1526.15" class="st2" v:langID="1033"><v:paragraph v:horizAlign="1"/><v:tabList/>Optional Review of Uncertain <tspan
+							x="129.23" dy="1.2em" class="st3">Cases<v:newlineChar/></tspan><tspan x="49.58" dy="1.2em" class="st3">Low Confidence/High<v:newlineChar/></tspan><tspan
+							x="87.24" dy="1.2em" class="st3">Fragmentation<v:newlineChar/></tspan><tspan x="33.99" dy="1.3em"
+							class="st4">(e.g., Low </tspan><tspan class="st4" v:langID="2052">      </tspan><tspan class="st4">,High </tspan><tspan
+							class="st4" v:langID="2052">      </tspan><tspan class="st4">, High </tspan><tspan class="st4"
+							v:langID="2052">   </tspan><tspan class="st4">)</tspan></text>			</g>
+			<g id="shape14-63" v:mID="14" v:groupContext="shape" v:layerMember="0" transform="translate(233.628,-55.6008)">
+				<title>动态连接线.17728</title>
+				<path d="M0 1647.78 L0 1627.94 L36.16 1627.94" class="st9"/>
+			</g>
+			<g id="shape15-68" v:mID="15" v:groupContext="shape" transform="translate(388.223,-8.52771)">
+				<title>工作表.15</title>
+				<rect v:rectContext="foreign" x="0" y="1630.84" width="28.0354" height="16.9402" class="st7"/>
+				<switch>
+					<foreignObject x="0" y="1630.84" width="28.0354" height="16.9402"
+							requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="6144" v:data="data:metafile;base64,eNrtGE1MnEX
+									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"/>
+					</foreignObject>
+					<svg viewBox="0 0 914.46 567.78" enable-background="new" color-interpolation-filters="sRGB" height="16.9402"
+							preserveAspectRatio="none" width="28.0354" x="0" y="1630.84">
+						<defs>
+							<clipPath id="mfid14">
+								<rect id="mfid15" x="0" y="0" width="914.46" height="567.78"/>
+							</clipPath>
+						</defs>
+						<g clip-path="url(#mfid14)">
+							<mask id="mfid13" fill-rule="evenodd">
+								<g>
+									<rect width="914" height="568" fill="white" stroke="none"/>
+								</g>
+							</mask>
+							<g mask="url(#mfid13)">
+								<g transform="matrix(1.0986, 0, 0, 1.2679, 0, 0)">
+									<g stroke="#000000" stroke-miterlimit="10" fill="none">
+										<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic"
+												font-weight="400" font-size="384">
+											<text stroke="none" fill="#000000" x="0,192,450,1218" y="0"
+													transform="translate(64,352)" xml:space="preserve">SCR</text>
+										</g>
+									</g>
+								</g>
+							</g>
+							<mask id="mfid16" fill-rule="evenodd" fill="white" stroke="none">
+								<rect x="0" y="0" width="914" height="568"/>
+							</mask>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="1630.84" width="28.0354" height="16.9402" class="st7"/>
+			</g>
+			<g id="shape16-71" v:mID="16" v:groupContext="shape" transform="translate(464.882,-5.62541)">
+				<title>工作表.16</title>
+				<rect v:rectContext="foreign" x="0" y="1625.11" width="27.054" height="22.6729" class="st7"/>
+				<switch>
+					<foreignObject x="0" y="1625.11" width="27.054" height="22.6729"
+							requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="6656" v:data="data:metafile;base64,eNrtWE1sVFU
+									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"/>
+					</foreignObject>
+					<svg viewBox="0 0 914.46 787.51" enable-background="new" color-interpolation-filters="sRGB" height="22.6729"
+							preserveAspectRatio="none" width="27.054" x="0" y="1625.11">
+						<defs>
+							<clipPath id="mfid18">
+								<rect id="mfid19" x="0" y="0" width="914.46" height="787.51"/>
+							</clipPath>
+						</defs>
+						<g clip-path="url(#mfid18)">
+							<mask id="mfid17" fill-rule="evenodd">
+								<g>
+									<rect width="914" height="788" fill="white" stroke="none"/>
+								</g>
+							</mask>
+							<g mask="url(#mfid17)">
+								<g transform="matrix(1.2983, 0, 0, 1.2961, 0, 0)">
+									<g stroke="#000000" stroke-miterlimit="10" fill="none">
+										<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="normal"
+												font-weight="400" font-size="222">
+											<text stroke="none" fill="#000000" x="0,86,183,627" y="0"
+													transform="translate(345,483)" xml:space="preserve">seg</text>
+										</g>
+										<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic"
+												font-weight="400" font-size="384">
+											<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(76,384)"
+													xml:space="preserve">N</text>
+										</g>
+									</g>
+								</g>
+							</g>
+							<mask id="mfid20" fill-rule="evenodd" fill="white" stroke="none">
+								<rect x="0" y="0" width="914" height="788"/>
+							</mask>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="1625.11" width="27.054" height="22.6729" class="st7"/>
+			</g>
+			<g id="shape17-74" v:mID="17" v:groupContext="shape" transform="translate(537.484,-7.07038)">
+				<title>工作表.17</title>
+				<rect v:rectContext="foreign" x="0" y="1627.99" width="18.1061" height="19.7872" class="st7"/>
+				<switch>
+					<foreignObject x="0" y="1627.99" width="18.1061" height="19.7872"
+							requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+						<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="6656" v:data="data:metafile;base64,eNrtWE1sVFU
+									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
+									NCI4yeg=="/>
+					</foreignObject>
+					<svg viewBox="0 0 812.2 912.1" enable-background="new" color-interpolation-filters="sRGB" height="19.7872"
+							preserveAspectRatio="none" width="18.1061" x="0" y="1627.99">
+						<defs>
+							<clipPath id="mfid22">
+								<rect id="mfid23" x="0" y="0" width="812.2" height="912.1"/>
+							</clipPath>
+						</defs>
+						<g clip-path="url(#mfid22)">
+							<mask id="mfid21" fill-rule="evenodd">
+								<g>
+									<rect width="812" height="912" fill="white" stroke="none"/>
+								</g>
+							</mask>
+							<g mask="url(#mfid21)">
+								<g transform="matrix(1.5859, 0, 0, 1.5833, 0, 0)">
+									<g stroke="#000000" stroke-miterlimit="10" fill="none">
+										<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic"
+												font-weight="400" font-size="222">
+											<text stroke="none" fill="#000000" x="0,444" y="0" transform="translate(304,483)"
+													xml:space="preserve">d</text>
+										</g>
+										<g font-family="&#39;Times New Roman&#39;,roman,serif" font-style="italic"
+												font-weight="400" font-size="384">
+											<text stroke="none" fill="#000000" x="0,768" y="0" transform="translate(70,384)"
+													xml:space="preserve">E</text>
+										</g>
+									</g>
+								</g>
+							</g>
+							<mask id="mfid24" fill-rule="evenodd" fill="white" stroke="none">
+								<rect x="0" y="0" width="812" height="912"/>
+							</mask>
+						</g>
+					</svg>
+				</switch>
+				<rect v:rectContext="foreign" x="0" y="1627.99" width="18.1061" height="19.7872" class="st7"/>
+			</g>
+		</g>
+		<g id="group18-77" transform="translate(387.78,-808.612)" v:mID="18" v:groupContext="group">
+			<title>工作表.18</title>
+			<g id="shape19-78" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(34.3741,-81.5942)">
+				<title>动态连接线.17727</title>
+				<path d="M6.87 1647.78 L7.24 1718.33" class="st5"/>
+			</g>
+		</g>
+	</g>
+</svg>
