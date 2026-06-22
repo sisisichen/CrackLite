@@ -37,28 +37,19 @@ two morphology-sensitive objectives:
 The full CrackLite network follows a lightweight encoder-decoder design. The
 decoder fuses multi-scale features and the auxiliary centerline/boundary branch
 is removed during inference.
-
-<p align="center">
-  <img src="assets/figures/fig2_architecture.svg" alt="Overall CrackLite architecture" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig2_architecture.png" alt="Overall CrackLite architecture" width="100%"></div>
 
 The core block contains DGTA and NLGR. DGTA estimates a local orientation prior
 and performs tangent/normal directional strip aggregation. NLGR then uses the
 normal cue as a geometry gate for local 3x3/5x5 refinement.
-
-<p align="center">
-  <img src="assets/figures/fig3_cracklite_block.svg" alt="CrackLite block with DGTA and NLGR" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig3_cracklite_block.png" alt="CrackLite block with DGTA and NLGR" width="100%"></div>
 
 ## Results
 
 CrackLite is evaluated on one self-collected field bridge dataset and two public
 benchmarks. The main reporting metrics are F1 and class-averaged mIoU with a
 fixed threshold of `0.5`.
-
-<p align="center">
-  <img src="assets/figures/fig4_dataset_miou.svg" alt="mIoU comparison across the three crack datasets" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig4_dataset_miou.png" alt="mIoU comparison across the three crack datasets" width="100%"></div>
 
 | Dataset | F1 | mIoU |
 | --- | ---: | ---: |
@@ -69,37 +60,25 @@ fixed threshold of `0.5`.
 The qualitative examples show the intended behavior: CrackLite aims to recover
 continuous crack trajectories while keeping masks thin and restrained around
 texture clutter.
-
-<p align="center">
-  <img src="assets/figures/fig5_qualitative_comparison.png" alt="Qualitative crack segmentation comparison" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig5_qualitative_comparison.png" alt="Qualitative crack segmentation comparison" width="100%"></div>
 
 ## Internal Response Interpretation
 
 The manuscript visualizes intermediate DGTA/NLGR responses to explain how the
 network evolves from diffuse crack-like activation toward concentrated crack
 paths, sharper local boundaries, and reduced false responses.
-
-<p align="center">
-  <img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="88%">
-</p>
+<div align="center"><img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="88%"></div>
 
 CrackLite outputs are also compatible with downstream morphology descriptors
 such as centerline length, approximate width profile, crack area ratio, and
 fragmentation indicators.
-
-<p align="center">
-  <img src="assets/figures/fig7_morphology_pipeline.svg" alt="Downstream morphology analysis pipeline" width="82%">
-</p>
+<div align="center"><img src="assets/figures/fig7_morphology_pipeline.png" alt="Downstream morphology analysis pipeline" width="82%"></div>
 
 ## Efficiency
 
 The model is positioned as an accuracy-efficiency trade-off for practical crack
 inspection rather than as a heavyweight accuracy-only model.
-
-<p align="center">
-  <img src="assets/figures/fig8_efficiency_tradeoff.svg" alt="Throughput and complexity trade-off" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig8_efficiency_tradeoff.png" alt="Throughput and complexity trade-off" width="100%"></div>
 
 | Model | FPS | GFLOPs | Params (M) |
 | --- | ---: | ---: | ---: |
@@ -110,10 +89,7 @@ inspection rather than as a heavyweight accuracy-only model.
 
 The ablation study separates the effects of topology aggregation and local
 geometry refinement.
-
-<p align="center">
-  <img src="assets/figures/fig9_ablation_miou.svg" alt="DGTA and NLGR ablation mIoU" width="76%">
-</p>
+<div align="center"><img src="assets/figures/fig9_ablation_miou.png" alt="DGTA and NLGR ablation mIoU" width="76%"></div>
 
 | Variant | DGTA | NLGR | mIoU |
 | --- | --- | --- | ---: |
@@ -121,10 +97,7 @@ geometry refinement.
 | DGTA only | Yes | No | 0.7302 |
 | NLGR only | No | Yes | 0.7752 |
 | CrackLite | Yes | Yes | 0.7862 |
-
-<p align="center">
-  <img src="assets/figures/fig10_ablation_qualitative.png" alt="Qualitative ablation comparison" width="100%">
-</p>
+<div align="center"><img src="assets/figures/fig10_ablation_qualitative.png" alt="Qualitative ablation comparison" width="100%"></div>
 
 ## Release Contents
 
