@@ -51,12 +51,6 @@ benchmarks. The main reporting metrics are F1 and class-averaged mIoU with a
 fixed threshold of `0.5`.
 <div align="center"><img src="assets/figures/fig4_dataset_miou.png" alt="mIoU comparison across the three crack datasets" width="100%"></div>
 
-| Dataset | F1 | mIoU |
-| --- | ---: | ---: |
-| Bridge Crack | 0.8655 | 0.7862 |
-| Crack500 | 0.8824 | 0.8037 |
-| Concrete-Crack-Segmentation | 0.9247 | 0.8684 |
-
 The qualitative examples show the intended behavior: CrackLite aims to recover
 continuous crack trajectories while keeping masks thin and restrained around
 texture clutter.
