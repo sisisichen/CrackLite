@@ -36,7 +36,7 @@ two morphology-sensitive objectives:
 
 Fig. 1 shows CrackLite in the accuracy-complexity operating region of the Bridge
 Crack test set. The bubble size represents GFLOPs.
-<div align="center"><img src="assets/figures/fig1_performance_complexity.png" alt="Performance-complexity comparison on the Bridge Crack test set" width="100%"></div>
+<div align="center"><img src="assets/figures/fig1_performance_complexity.png" alt="Performance-complexity comparison on the Bridge Crack test set" width="86%"></div>
 
 ## Visual Overview
 
