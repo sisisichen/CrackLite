@@ -1,0 +1,20 @@
+{
+  "checkpoints": [
+    {
+      "name": "checkpoint_best.pth.tar",
+      "expected_path": "outputs/checkpoint/checkpoint_best.pth.tar",
+      "required_for": "evaluation and prediction",
+      "distributed_in_repo": false,
+      "source": "train with python train.py or provide a paper checkpoint",
+      "sha256": ""
+    },
+    {
+      "name": "checkpoint_last.pth.tar",
+      "expected_path": "outputs/checkpoint/checkpoint_last.pth.tar",
+      "required_for": "resume training",
+      "distributed_in_repo": false,
+      "source": "produced during training",
+      "sha256": ""
+    }
+  ]
+}

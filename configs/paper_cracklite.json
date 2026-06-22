@@ -1,0 +1,39 @@
+{
+  "model": {
+    "name": "CrackLite",
+    "input_channels": 3,
+    "output_channels": 1,
+    "embed_dims": [32, 64, 160, 256],
+    "depths": [2, 2, 2, 2],
+    "decoder_dim": 128,
+    "use_dgta": true,
+    "use_nlgr": true,
+    "use_auxiliary_heads": true,
+    "direction_set": ["0", "pi/4", "pi/2", "3pi/4"],
+    "tangent_length": 15,
+    "normal_length": 5
+  },
+  "training": {
+    "image_size": [1024, 1024],
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 6,
+    "epochs": 100,
+    "amp": true,
+    "checkpoint_selection": "best validation class-averaged mIoU"
+  },
+  "loss": {
+    "bce": 1.0,
+    "dice": 1.0,
+    "cldice": 0.5,
+    "centerline_auxiliary": 0.3,
+    "boundary_auxiliary": 0.3,
+    "boundary_radius": 2,
+    "skeleton_iterations": 20
+  },
+  "evaluation": {
+    "threshold": 0.5,
+    "primary_metrics": ["F1", "class_averaged_mIoU"],
+    "secondary_metrics": ["Precision", "Recall", "foreground_IoU", "background_IoU"]
+  }
+}

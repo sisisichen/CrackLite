@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use CrackLite, please cite the manuscript and this software release."
+title: "CrackLite: Lightweight Concrete Crack Segmentation with Direction-Guided Topology Aggregation and Local Geometry Refinement"
+authors:
+  - family-names: Bao
+    given-names: Longsheng
+  - family-names: Chen
+    given-names: Si
+  - family-names: Bao
+    given-names: Yuyang
+  - family-names: Li
+    given-names: Baoxian
+  - family-names: Zhao
+    given-names: Jiakang
+  - family-names: Yu
+    given-names: Ling
+year: 2026
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/sisisichen/CrackLite"
+preferred-citation:
+  type: article
+  title: "CrackLite: Lightweight Concrete Crack Segmentation with Direction-Guided Topology Aggregation and Local Geometry Refinement"
+  authors:
+    - family-names: Bao
+      given-names: Longsheng
+    - family-names: Chen
+      given-names: Si
+    - family-names: Bao
+      given-names: Yuyang
+    - family-names: Li
+      given-names: Baoxian
+    - family-names: Zhao
+      given-names: Jiakang
+    - family-names: Yu
+      given-names: Ling
+  year: 2026
+  notes: "Manuscript"

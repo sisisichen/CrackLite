@@ -1,0 +1,13 @@
+split,image,mask,width,height,source
+train,train/image/demo_train_000.png,train/label/demo_train_000.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_001.png,train/label/demo_train_001.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_002.png,train/label/demo_train_002.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_003.png,train/label/demo_train_003.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_004.png,train/label/demo_train_004.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_005.png,train/label/demo_train_005.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_006.png,train/label/demo_train_006.png,128,128,synthetic_smoke_test
+train,train/image/demo_train_007.png,train/label/demo_train_007.png,128,128,synthetic_smoke_test
+val,val/image/demo_val_000.png,val/label/demo_val_000.png,128,128,synthetic_smoke_test
+val,val/image/demo_val_001.png,val/label/demo_val_001.png,128,128,synthetic_smoke_test
+test,test/image/demo_test_000.png,test/label/demo_test_000.png,128,128,synthetic_smoke_test
+test,test/image/demo_test_001.png,test/label/demo_test_001.png,128,128,synthetic_smoke_test

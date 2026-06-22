@@ -1,0 +1,9 @@
+{
+  "description": "Small CPU smoke-test setting for synthetic demo data.",
+  "data_root": "demo_data",
+  "image_size": [128, 128],
+  "batch_size": 2,
+  "epochs": 1,
+  "device": "cpu",
+  "note": "The current training script reads canonical defaults from config.py. This file records the intended demo setting."
+}
