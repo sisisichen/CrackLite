@@ -4,6 +4,7 @@ This directory contains GitHub-friendly PNG assets used by the README.
 
 ```text
 figures/
+  fig1_performance_complexity.png
   fig2_architecture.png
   fig3_cracklite_block.png
   fig4_dataset_miou.png

@@ -32,6 +32,12 @@ two morphology-sensitive objectives:
 - **Reproducible release package:** configs, model card, citation metadata,
   checkpoint manifest, dataset protocol, demo data, and command wrappers.
 
+## Performance-Complexity Overview
+
+Fig. 1 shows CrackLite in the accuracy-complexity operating region of the Bridge
+Crack test set. The bubble size represents GFLOPs.
+<div align="center"><img src="assets/figures/fig1_performance_complexity.png" alt="Performance-complexity comparison on the Bridge Crack test set" width="100%"></div>
+
 ## Visual Overview
 
 The full CrackLite network follows a lightweight encoder-decoder design. The
