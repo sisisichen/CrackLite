@@ -63,11 +63,6 @@ network evolves from diffuse crack-like activation toward concentrated crack
 paths, sharper local boundaries, and reduced false responses.
 <div align="center"><img src="assets/figures/fig6_internal_response.png" alt="DGTA and NLGR internal response evolution" width="88%"></div>
 
-CrackLite outputs are also compatible with downstream morphology descriptors
-such as centerline length, approximate width profile, crack area ratio, and
-fragmentation indicators.
-<div align="center"><img src="assets/figures/fig7_morphology_pipeline.png" alt="Downstream morphology analysis pipeline" width="82%"></div>
-
 ## Efficiency
 
 The model is positioned as an accuracy-efficiency trade-off for practical crack

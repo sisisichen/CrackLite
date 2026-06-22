@@ -9,7 +9,6 @@ figures/
   fig4_dataset_miou.png
   fig5_qualitative_comparison.png
   fig6_internal_response.png
-  fig7_morphology_pipeline.png
   fig8_efficiency_tradeoff.png
   fig9_ablation_miou.png
   fig10_ablation_qualitative.png
